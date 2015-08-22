@@ -7,6 +7,8 @@ var fn = {
     init: function(){
         $('#ncSend').tap(fn.crearContacto);
         $('#cListar').tap(cn.findContacts);
+        $('#aEscribir').tap(f.createFile);
+        $('#aLeer').tap(f.createFile);
     },
     
     crearContacto: function(){
