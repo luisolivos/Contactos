@@ -8,7 +8,7 @@ var fn = {
         $('#ncSend').tap(fn.crearContacto);
         $('#cListar').tap(cn.findContacts);
         $('#aEscribir').tap(f.createFile);
-        $('#aLeer').tap(f.createFile);
+        $('#aLeer').tap(f.readFile);
     },
     
     crearContacto: function(){
